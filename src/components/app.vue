@@ -3,17 +3,17 @@
     <div id="banner"></div>
     <div id="main-content-wrap">
       <div id="main-content">
-        <h>kkk</h>
         <left-nav id="left-nav"></left-nav>
         <div id="content-container">
           <router-view></router-view>
+          <p>uuuu</p>
         </div>
       </div>
     </div>
   </div>
 </template>
 <script type="text/babel">
-  import LeftNav from './server/left-nav.vue';
+  import LeftNav from './left-nav.vue';
 
   export default {
     components: {

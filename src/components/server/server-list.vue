@@ -1,6 +1,8 @@
 <template>
   <div>
+    <p>wwww</p>
     <el-table :data="list">
+
       <el-table-column prop="ip" label="IP"></el-table-column>
       <el-table-column prop="remotePort" label="远程访问端口"></el-table-column>
       <el-table-column prop="osType" label="操作系统"></el-table-column>

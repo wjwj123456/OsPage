@@ -6,22 +6,26 @@ import Router from 'vue-router';
 
 Vue.use(Router);
 
-const routes = [{
+const routes = [
+  {
   path: '/server/list',
   component: resolve => {
     System.import('../components/server/server-list.vue').then(comp => resolve(comp));
   }
-}, {
+},
+  {
   path: '/server/add',
   component: resolve => {
     System.import('../components/server/server-edit.vue').then(comp => resolve(comp));
   }
-}, {
+},
+  {
   path: '/server/edit/:id',
   component: resolve => {
     System.import('../components/server/server-edit.vue').then(comp => resolve(comp));
   }
-}, {
+},
+  {
   path: '/server/show/:id',
   component: resolve => {
     System.import('../components/server/server-show.vue').then(comp => resolve(comp));
